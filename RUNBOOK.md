@@ -79,7 +79,7 @@
 ### 5.1 已下载记录（全部校验通过）
 
 位置：本目录（也即本仓库——全部资料与文档集中于此）
-内容：`RUNBOOK.md`（本手册）/ `SOURCE-README.md`（原作者说明）/ `CHECKSUMS.sha256`（全文件校验）/ `MiFlash.7z` + `Qualcomm-…-9008-Driver.zip`（EDL 工具链）/ `小米平板6降级小包.7z` + `小米平板6降级小包-2.7z` + `ENG Firmware….7z`（pipa 三件套）/ `pipa_images_V14.0.4.0…tgz` + `pipa_images_OS2.0.20.0…tgz`（官方固件）
+内容：`RUNBOOK.md`（本手册）/ `SOURCE-README.md`（原作者说明）/ `CHECKSUMS.sha256`（全文件校验）/ `MiFlash.7z` + `Qualcomm-…-9008-Driver.zip`（EDL 工具链）/ `小米平板6降级小包.7z` + `小米平板6降级小包-2.7z` + `ENG Firmware….7z`（pipa 三件套）/ `pipa_images_V14_partNN.tgz` + `pipa_images_OS2_partNN.tgz`（官方固件，因 LFS 2GiB 单文件限制分段存储，`cat` 合并后校验 MD5——见 README）
 校验：全部文件 SHA256 见 `CHECKSUMS.sha256`；3 个 7z `7z t` 通过；两个官方 tgz 与官方 MD5 尾缀吻合（见下）
 
 | 文件 | SHA256（完整值见 `CHECKSUMS.sha256`）|
